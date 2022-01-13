@@ -30,7 +30,9 @@ testing 1 2 3
 Horizontal rule: 
 ---
 ***
+
 `inline code` with back ticks
+
 ```
 # code block
 print '3 backticks or'
