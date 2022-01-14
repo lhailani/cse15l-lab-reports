@@ -109,8 +109,8 @@ The terminal should look alike with this:
 Additionally, there are many more commands to try out which could be quicker and take less time to type it one by one. 
 
 Overall, these are the basic steps on how to remote access from your local computer! 
-----
 
+----
 
 
 
