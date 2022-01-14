@@ -6,6 +6,7 @@ Hello, this is a step-by-step tutorial on how to log into your course-specified 
 Here are the following steps I took to achieve this:
 
 1) **Installing Visual Studio Code:**
+
      - Go to the Visual Studio Code website: [Link](https://code.visualstudio.com/)
         - Follow the instructions and download the version for the paltform you are woking on (such as Windows or OSX)
      - As a result, visual studio code should open and look like this:
