@@ -56,7 +56,7 @@ Furthermore, to log out of the remote server you can either type `exit` or run t
 
 4) **Moving Files with scp**
 
-To copy a file from a personal computer to a remote computer, we use the command `scp`. 
+To copy a file from a local computer to a remote computer, we use the command `scp`. 
 Create a new file on your computer named `WhereAmI.java` and include the following contents:
 > ![image](https://user-images.githubusercontent.com/97707886/149474154-461ff294-d487-49a6-9c86-78b13b662ff7.png)
 
