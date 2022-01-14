@@ -22,4 +22,11 @@ Here are the following steps I took to achieve this:
 - Once those steps have been completed, the terminal should look similar to this:
   ![image](https://user-images.githubusercontent.com/97707886/149441581-328b7ec8-a745-482f-b161-0a748b81b854.png)
         
-3) **Tring Some Commands**
+3) **Trying Some Commands**
+Now, we will attempt to run a few programs remotely after ssh-ing and also trying them on our local computer. 
+The following commands we will type in the terminal:
+- `cd ~`
+- `cd`
+- `ls -lat`
+- `ls -a`
+- `ls <directory>` 
