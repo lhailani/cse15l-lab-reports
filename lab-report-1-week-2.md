@@ -99,6 +99,7 @@ Now, you are able to access `ssh` and `scp` without always inserting your passwo
 
 There are many ways to optimize remote running which can improve efficiency and take less time or typing. 
 For instance, one example is that you can use semicolons to run commands on the same line within the terminal. 
+
 Try the following: 
 `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
 
@@ -107,10 +108,10 @@ The terminal should look alike with this:
 
 Additionally, there are many more commands to try out which could be quicker and take less time to type it one by one. 
 
-
+Overall, these are the basic steps on how to remote access from your local computer! 
 ----
 
-Overall, these are the basic steps on how to remote access from your local computer! 
+
 
 
 
