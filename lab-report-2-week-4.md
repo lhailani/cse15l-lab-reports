@@ -6,7 +6,7 @@ In this lab report, I will be discussing 3 code changes that me and my peers hav
 
 In this case, we tried a file that used only `()` but not `[]`.
 
-First, we created a file that shouldn't work:[Failed File 1](https://github.com/lhailani/markdown-parse/blob/main/md3.md).
+First, we created a file that shouldn't work: [Failed File 1](https://github.com/lhailani/markdown-parse/blob/main/md3.md).
 
 In the terminal, running the program: 
 
@@ -37,9 +37,7 @@ The bug in our code was that there was an index out of bound message because of 
 
 The last test file we created, was using a file that had a `[]` and `()`, very apart from one another.
 
-File that should not work: 
-
-[Failed File 3](https://github.com/lhailani/markdown-parse/blob/main/md4.md)
+File that should not work: [Failed File 3](https://github.com/lhailani/markdown-parse/blob/main/md4.md)
 
 In the terminal, running the program returns:
 
