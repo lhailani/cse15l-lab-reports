@@ -12,7 +12,8 @@ In the terminal, running the program:
 
 ![image](https://user-images.githubusercontent.com/97707886/151602597-5c825b69-db96-4baf-802e-9be1757b4ed4.png)
 
-Our code changes: ![image](https://user-images.githubusercontent.com/97707886/151602186-dadf4178-26ca-40dc-8e3c-440a12a08eea.png)
+Our code changes:
+![image](https://user-images.githubusercontent.com/97707886/151602186-dadf4178-26ca-40dc-8e3c-440a12a08eea.png)
 
 The bug in our code was that it was reading the file when it shouldn't because the test file was written incorrectly. Which was caused because the program files were reading things at a certain index, producing an output that we did not want/expect. Fixed this by adding an `if` statement to limit this and the program should return `[]`. 
 
@@ -22,9 +23,13 @@ Another test we tried, was using a file that only use `[]` but not `()`.
 
 A file that should not work: [Failed File 2](https://github.com/lhailani/markdown-parse/blob/main/newmarkdown.md)
 
-In the terminal, running the program produced an error message:![image](https://user-images.githubusercontent.com/97707886/151605463-a33c2674-1cf1-4b09-868d-111f4b9a5619.png)
+In the terminal, running the program produced an error message:
 
-Our code changes: ![image](https://user-images.githubusercontent.com/97707886/151605766-3cee310d-2025-4a2b-9893-1b2c3bbf3093.png)
+![image](https://user-images.githubusercontent.com/97707886/151605463-a33c2674-1cf1-4b09-868d-111f4b9a5619.png)
+
+Our code changes: 
+
+![image](https://user-images.githubusercontent.com/97707886/151605766-3cee310d-2025-4a2b-9893-1b2c3bbf3093.png)
 
 The bug in our code was that there was an index out of bound message because of our file. The previous correction we have done from part 1 took into consideration of files without `[]`, however, not files without `()`. Those correction affected how the file was read and we got an index out of bound. Fixed this by adding more to the if statement. 
 
@@ -44,5 +49,5 @@ Our code changes:
 
 ![image](https://user-images.githubusercontent.com/97707886/151610517-1fcc749c-c872-4d39-8b81-a25a9de6ee5f.png)
 
-
+A bug in our code is reading and returning the failure-inducing input that we are not expecting. Empty brackets should be returned but our code does not take into consideration of large gaps between reading files because it looks at certain indexes. 
 
