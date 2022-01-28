@@ -49,5 +49,5 @@ Our code changes:
 
 ![image](https://user-images.githubusercontent.com/97707886/151610517-1fcc749c-c872-4d39-8b81-a25a9de6ee5f.png)
 
-A bug in our code is reading and returning the failure-inducing input that we are not expecting. Empty brackets should be returned but our code does not take into consideration of large gaps between reading files because it looks at certain indexes. 
+A bug in our code is reading and returning the failure-inducing input that we are not expecting. Empty brackets should be returned but our code does not take into consideration of large gaps between reading files because it looks at certain indices. 
 
