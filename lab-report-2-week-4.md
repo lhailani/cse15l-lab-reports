@@ -30,5 +30,19 @@ The bug in our code was that there was an index out of bound message because of 
 
 **3. Improving our program part 3:**
 
+The last test file we created, was using a file that had a `[]` and `()`, very apart from one another.
+
+File that should not work: 
+
+[Failed File 3](https://github.com/lhailani/markdown-parse/blob/main/md4.md)
+
+In the terminal, running the program returns:
+
+![image](https://user-images.githubusercontent.com/97707886/151610271-caa154f3-de4a-4282-a5aa-554caca46127.png)
+
+Our code changes:
+
+![image](https://user-images.githubusercontent.com/97707886/151610517-1fcc749c-c872-4d39-8b81-a25a9de6ee5f.png)
+
 
 
