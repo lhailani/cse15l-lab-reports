@@ -103,6 +103,8 @@ For instance, one example is that you can use semicolons to run commands on the 
 Try the following: 
 `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
 
+*keystrokes* - it took 40 keystrokes to run this command in the terminal. To save more additional keystrokes, users can use the upper arrow on their keyboard to go back to the previous commands that have been ran
+
 The terminal should look alike with this:
 > ![image](https://user-images.githubusercontent.com/97707886/149587529-a98653bc-3a99-4887-8c0e-9adf076743d1.png)
 
