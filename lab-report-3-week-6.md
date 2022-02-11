@@ -30,6 +30,8 @@ Though, `path` is the actual path of the directory on your computer. Running the
 to this, depending on the amount of files within your directory:
 ![image](https://user-images.githubusercontent.com/97707886/153666014-6a129dd4-a35f-45c8-a899-0b9810dd72b6.png)
 
+Overall, that is how to streamline `ssh` and `scp -r`in this lab report!
+
 
 
 
