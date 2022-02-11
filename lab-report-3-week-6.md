@@ -1,4 +1,4 @@
-# Lab Report 3: week 3
+# Lab Report 3: week 6
 
 In this lab report, I will be showing how to streamline `ssh` configuration.
 
