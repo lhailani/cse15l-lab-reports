@@ -25,7 +25,13 @@ Links to markdown-parse repository
 
 **Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.**
 
+- For snippet 1, I don't think there would be much line changes within our code. For instance, we could add another if statement that looks for the criteria of backticks. 
+
 **Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.**
 
+- No, I think there would be more changes involves for our program to work. As snippet 2, takes into consideration of nested parentheses, brackets, and escaped brackets. We would have to write additional lines of code (most likely >10 lines) that considers these special factors. Our current program only checks for open and closed parentheses/brackets. Also, checks for spaces between lines. However, it does not check the special cases within snippet 2, so, multiple lines of code would be needed to check for these cases. Furthermore, there would be other special cases that snippet 2 does not cover. 
+
 **Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.**
+
+- More changes would definitely be needed to address the special cases in snippet 3. As the output, included links that were not expected. Issues that we would need to address and include in our program would be looking for spaces *in* brackets and the parentheses. Also, taking into consideration random lines of text that are not links. There are a lot of special cases that our program did not cover and would take more than 10 lines of code. We would also have to think of other related cases too.
 
