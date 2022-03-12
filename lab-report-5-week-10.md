@@ -34,7 +34,7 @@ To fix this, we can include things like an if statement that takes into consider
 ## Test 2: test-files/577.md
 
 **Preview**:
-![image](https://user-images.githubusercontent.com/97707886/157989627-e2bddc37-7794-49f7-a9bb-1a513960f228.png)
+>![image](https://user-images.githubusercontent.com/97707886/157989627-e2bddc37-7794-49f7-a9bb-1a513960f228.png)
 
 **Differences**:
 
