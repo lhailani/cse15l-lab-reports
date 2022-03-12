@@ -44,21 +44,13 @@ To fix this, we can include things like an if statement that takes into consider
 **Explanation**:
 
 The preview indicates that an image link would be returned, though, it is not an actual image link. So, the image link should still be invalid and an empty list 
-should be returned. My results is proven to be correct while the professors is incorrect. To address the professor's error we can consider not implementing an image link in the program, like how my group did in our Markdownparse.
+should be returned. My results is proven to be correct while the professors is incorrect. To address the professor's error we can consider not implementing an image link in the program, like how my group did in our Markdownparse. The professor's program does not take into consideration about image links which is why we get the results.
+
 > ![image](https://user-images.githubusercontent.com/97707886/157993580-5edd0be2-1c5a-4107-b5a8-aa326652c7d7.png)
 
 To implement that idea, we can include an if statement, if an "!" is at index 0, we break from the while loop and an empty list is returned. However, if we were to take into consideration about image links, we can still have the if statement but instead of breaking we would check if it's a valid image link. 
 
 
-
-
 ________
-
-
-
-
-
-
-
 
 
